@@ -1,11 +1,18 @@
 {
-  "name": "Snake And Ladders",
-  "description": "Lets Play",
-  "icon": "https://snake-and-ladders-phi.vercel.app/icon.png",
-  "splash": "https://snake-and-ladders-phi.vercel.app/splash.png",
-  "homepage": "https://snake-and-ladders-phi.vercel.app",
+  "accountAssociation": {
+    "header": "eyJmaWQiOjI5OTM5NSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDQxQTBlMTNjMzdCOWRCNzgwMzIzMEQ0NjA4Mjc2MDczMEJiNDIxM2YifQ",
+    "payload": "eyJkb21haW4iOiJzbmFrZS1hbmQtbGFkZGVycy1waGkudmVyY2VsLmFwcCJ9",
+    "signature": "MHhlYWJkYzc4Nzk1YmIwM2U3NWIwZDRlY2UyNGExYzcyZDA1OGEzM2RlMzdhNWE4NWQzMTkzZmZmOGQ0YmU0MjY0NGZlZGMwMzlmMzA4NGM1M2VhODM0ZGE4ZWYzYzJhMGMxNTJlODJkMzNiYjgwYmEzYmFjMzczNDI2YzlkYzExODFi"
+  },
   "frame": {
-    "start": "https://snake-and-ladders-phi.vercel.app",
-    "postUrl": "https://snake-and-ladders-phi.vercel.app/api/game/play"
+    "version": "1",
+    "name": "Snake laddres",
+    "iconUrl": "https://snake-and-ladders-phi.vercel.app/icon.png",
+    "homeUrl": "https://snake-and-ladders-phi.vercel.app",
+    "imageUrl": "https://snake-and-ladders-phi.vercel.app/image.png",
+    "buttonTitle": "Check this out",
+    "splashImageUrl": "https://snake-and-ladders-phi.vercel.app/splash.png",
+    "splashBackgroundColor": "#eeccff",
+    "webhookUrl": "https://snake-and-ladders-phi.vercel.app/api/webhook"
   }
 }
