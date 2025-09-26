@@ -2,6 +2,7 @@ import React from 'react'
 import { AuthKitProvider, SignInButton } from '@farcaster/auth-kit'
 
 export default function LoginFarcaster({ onLogin }) {
+  // Pastikan hanya jalan di browser
   const domain =
     typeof window !== 'undefined'
       ? window.location.origin
