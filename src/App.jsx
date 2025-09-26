@@ -169,3 +169,30 @@ function App() {
 }
 
 export default App;
+
+return (
+  <div style={{ padding: '1rem', fontFamily: 'sans-serif' }}>
+    <h1>🐍 Crypto Snakes & Ladders</h1>
+    {!user ? (
+      <>
+        <p>Silakan login dengan Farcaster untuk mulai main.</p>
+        <LoginFarcaster onLogin={setUser} />
+      </>
+    ) : (
+      <div>
+        <p>Halo {user.username} (FID: {user.fid})</p>
+        <button
+          onClick={() =>
+            fetch('/api/game/play', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ fid: user.fid, username: user.username })
+            }).then((r) => r.json().then(console.log))
+          }
+        >
+          🎲 Main Sekarang
+        </button>
+      </div>
+    )}
+  </div>
+)
