@@ -1,0 +1,11 @@
+{
+  "name": "Snake And Ladders",
+  "description": "Lets Play",
+  "icon": "https://snake-and-ladders-phi.vercel.app/icon.png",
+  "splash": "https://snake-and-ladders-phi.vercel.app/splash.png",
+  "homepage": "https://snake-and-ladders-phi.vercel.app",
+  "frame": {
+    "start": "https://snake-and-ladders-phi.vercel.app",
+    "postUrl": "https://snake-and-ladders-phi.vercel.app/api/game/play"
+  }
+}
